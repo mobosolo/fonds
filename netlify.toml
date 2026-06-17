@@ -1,6 +1,3 @@
 [build]
-  command = "pnpm install --no-frozen-lockfile && npm run dev"
-  publish = "Personal Finance PWA UI/public"
-
-[build.environment]
-  PNPM_FLAGS="--no-frozen-lockfile"
+  command = "pnpm run build"
+  publish = "Personal Finance PWA UI/Personal Finance PWA UI/dist"
