@@ -1,6 +1,0 @@
-[build]
-  # On rajoute l'option pour régler l'erreur de lockfile mismatch
-  command = "pnpm install --no-frozen-lockfile && pnpm run build"
-  
-  # On remet le bon chemin (sans le répéter trois fois)
-  publish = "Personal Finance PWA UI/Personal Finance PWA UI/dist"
